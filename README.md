@@ -5,6 +5,9 @@ The frontier of artificial intelligence lies with efficiency.
 ![Taxonomy of Compute](./Taxonomy_of_Compute.png)
 ![Efficient Frontier of Compute](./Efficient_Frontier_of_Compute.png)
 
+<img width="2304" height="1536" alt="Efficient_Frontier_of_Compute" src="https://github.com/user-attachments/assets/d143205e-f754-4ddf-9a89-c882f5f6d025" />
+
+
 [Observable link]([https://observablehq.com/@nbm/efficient-frontier-of-compute](https://observablehq.com/d/f0c2c2eba5698489))
 
 ## Overview
