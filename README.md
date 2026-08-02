@@ -2,17 +2,15 @@
 
 The frontier of artificial intelligence lies with efficiency.
 
-![Taxonomy of Compute](./Taxonomy_of_Compute.png)
-![Efficient Frontier of Compute](./Efficient_Frontier_of_Compute.png)
-
 <img width="2304" height="1536" alt="Efficient_Frontier_of_Compute" src="https://github.com/user-attachments/assets/d143205e-f754-4ddf-9a89-c882f5f6d025" />
 
+<img width="2368" height="1750" alt="Taxonomy_of_Compute" src="https://github.com/user-attachments/assets/9b4140b3-244e-430c-997f-ffa00738c4cc" />
 
 [Observable link]([https://observablehq.com/@nbm/efficient-frontier-of-compute](https://observablehq.com/d/f0c2c2eba5698489))
 
 ## Overview
 
-Two interactive visualizations accompanying [The Efficient Frontier of Compute]([https://northbranchmedia.substack.com/](https://northbranchmedia.substack.com/p/the-efficient-frontier-of-compute)) published by North Branch Media. The piece argues that closing the energy efficiency gap between biological and artificial intelligence is the most valuable opportunity in the field, and maps every category of computation humanity has built across both its physical substrates and algorithmic paradigms.
+Two interactive visualizations accompanying [The Efficient Frontier of Compute]([https://northbranchmedia.substack.com/](https://northbranchmedia.substack.com/p/the-efficient-frontier-of-compute)) published by North Branch Media. The piece argues that improving the energy efficiency of AI tools is the most scalable opportunity in the field and maps every category of computation humanity has built across both its physical substrates and algorithmic paradigms.
 
 ### Taxonomy of Compute
 
@@ -20,7 +18,7 @@ Matrix categorizing every computational paradigm across two axes: hardware subst
 
 ### Efficient Frontier of Compute
 
-Interactive scatter plot estimating the energy (joules per bit) and time (seconds per bit) required to resolve one bit of uncertainty across forty-plus substrates from the taxonomy. Both axes are logarithmic, spanning roughly twenty orders of magnitude. The dashed amber line marks the Landauer limit (kT·ln(2) at 300K) — the thermodynamic floor for irreversible computation. The dotted staircase traces the efficient frontier: the set of substrates where no other system resolves a bit in both less time and less energy. Quantum gates sit below the Landauer line because unitary operations are reversible by construction, with the irreversible cost paid only at measurement. Built with D3.js.
+Interactive scatter plot estimating the energy (joules per bit) and time (seconds per bit) required to resolve one bit of uncertainty across forty-plus substrates from the taxonomy. Both axes are logarithmic, spanning roughly twenty orders of magnitude. The dashed amber line marks the Landauer limit (kT·ln(2) at 300K) — the thermodynamic floor for irreversible computation. The dotted staircase traces the efficient frontier: the set of substrates where no other system resolves a bit in both less time and less energy. Built with D3.js.
 
 ## Data
 
@@ -42,11 +40,6 @@ Primary sources for energy, timing, and first-demonstration estimates:
 - [Gibson et al. (2010)](https://doi.org/10.1126/science.1190719) — Creation of a bacterial cell controlled by a chemically synthesized genome, *Science*
 - [White et al. (1986)](https://doi.org/10.1098/rstb.1986.0056) — The structure of the nervous system of the nematode *Caenorhabditis elegans*, *Philosophical Transactions of the Royal Society B*
 - [Kagan et al. (2022)](https://doi.org/10.1016/j.neuron.2022.09.001) — In vitro neurons learn and exhibit sentience when embodied in a simulated game-world, *Neuron*
-
-**Hypercomputation** (excluded from the frontier; treated as "Not Computation")
-- Pitowsky — the physical Church thesis
-- Hogarth — Malament-Hogarth spacetimes
-- Hamkins & Lewis — infinite-time Turing machines
 
 **Thermodynamic foundation**
 - [Landauer (1961)](https://doi.org/10.1147/rd.53.0183) — Irreversibility and Heat Generation in the Computing Process, *IBM Journal of Research and Development*
