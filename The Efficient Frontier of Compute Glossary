@@ -1,0 +1,110 @@
+The Efficient Frontier of Compute Glossary
+
+Acronyms and technical terms
+RiboNucleic Acid (RNA). A single-stranded nucleic acid polymer of ribonucleotides that assists in gene expression.
+DeoxyriboNucleic Acid (DNA). A double-stranded nucleic acid polymer of deoxyribonucleotides that stores genetic information.
+Application-Specific Integrated Circuit (ASIC). A processor designed for a sole application (mining bitcoin). Maximal performance-per-watt.
+Tensor Processing Unit (TPU). Google's processor for neural networks. Built using systolic-array matrix-multiply units and on-chip memory.
+Surface Acoustic Wave (SAW). Sound traveling across a piezoelectric crystal regulated by electrodes to filter radio frequencies.
+Graphics Processing Unit (GPU). A processor with thousands of cores running in parallel. Built for rendering graphics, now the standard hardware for AI operations.
+Generative Pre-trained Transformer (GPT). A decoder-only transformer trained to predict the next token across text. A language model.
+Central Processing Unit (CPU). A general-purpose processor optimized to minimize latency on unpredictable instructions.
+Electronic Numerical Integrator and Computer (ENIAC). The first programmable, electronic, general-purpose computer (1945). Built from ~18,000 vacuum tubes and programmed by rewiring.
+Rapid Single-Flux-Quantum (RSFQ). Superconducting logic encoding bits as picosecond magnetic pulses across Josephson junctions. Energy intensive and quick.
+Adiabatic Quantum-Flux-Parametron (AQFP). Superconducting logic running slowly enough that energy is returned rather than dissipated. Near the thermodynamic limit, at the cost of speed.
+Thermodynamic Sampling Unit (TSU). A processor built from transistors whose thermal noise fluctuates probabilistically rather than hold a fixed 0 or 1. Samples from a distribution physically instead of computing it.
+American Invitational Mathematics Examination (AIME). A 15-question, three-hour US secondary-school Olympiad qualifier with integer-only answers (000–999). Sits between the AMC 10/12 and the USAMO.
+________________________________________
+Taxonomy axes
+Hardware (columns)
+Organic. Computation carried out in living tissue. Molecules and cells as the switching medium.
+Charge. Computation carried out by moving or storing electrons, including silicon logic and processing-in-memory. The dominant substrate of the electronic era.
+Kinetic. Computation carried out by physical motion. Gears, levers, and cams as the switching medium.
+Wave. Computation carried out by propagating waves — electromagnetic, acoustic, magnetic, or plasma. Interference does the arithmetic.
+Superconductor. Computation carried out in a zero-resistance material below its critical temperature. Switching happens at Josephson junctions.
+Atomic. Computation carried out on individual atoms or ions held in place by fields or light. Every qubit is identical by physics rather than fabrication.
+Software (rows)
+Fixed. A rule set wired into the substrate and not changeable without rebuilding it. No stored program.
+Universal. A substrate that can execute any computable procedure given the right instructions. Turing-complete.
+Learned Weights. Behavior encoded in numerical parameters fitted to data rather than in explicit instructions. The rule is discovered, not written.
+Probabilistic. A substrate that samples from a distribution as a physical process. Randomness is the mechanism rather than an error term.
+Superposition. A substrate holding multiple states simultaneously until measured. Interference between amplitudes performs the computation.
+Processing-In-Memory (PIM). An architecture that performs arithmetic inside the memory array instead of shuttling data to a separate processor. Removes the von Neumann bottleneck.
+________________________________________
+Compute types
+Organic
+First RNA (~3.8 billion years ago). The earliest self-replicating ribonucleic acid, able to both carry a sequence and catalyze its own copying. The first molecule read as instruction rather than merely reacted with.
+Adleman DNA (1994). Leonard Adleman's test-tube solution to a seven-node Hamiltonian path problem using hybridizing DNA strands. Massively parallel by brute force, with the answer extracted by gel electrophoresis.
+Genetic circuits (2000). Synthetic gene networks built to implement logic inside living cells. The repressilator chained three mutually repressing genes into an oscillator.
+Engineered cells (2010). A bacterial cell running a chemically synthesized genome, JCVI-syn1.0. The genome was assembled from oligonucleotides and transplanted into an emptied host.
+Cortical Labs (2022). Living cortical neurons cultured on a multi-electrode array and trained to play Pong. Feedback delivered as structured versus random electrical stimulation.
+FinalSpark (2024). A Swiss platform offering remote compute time on living human brain organoids. Sixteen organoids wired into a cloud-accessible bioprocessor.
+Animal nervous systems (~600 million years ago). The first networks of electrically excitable cells, appearing in early cnidarians. Compute detaches from the single cell and begins coordinating a body.
+Charge
+Hand Calculator (1964). The first fully transistorized electronic calculators. Desktop-sized, with fixed arithmetic in hardware and no stored program.
+Bitcoin ASIC (2013). A chip that does nothing but double SHA-256 hashing for proof-of-work mining. See ASIC.
+TPU (2016). See TPU.
+ENIAC (1946). See ENIAC.
+GPU (1999). See GPU.
+GPT-4 (2023). See GPT.
+TrueNorth (2014). IBM's spiking neuromorphic processor, one million digital neurons and 256 million synapses. Draws roughly 70 milliwatts because neurons stay silent until an event arrives.
+Loihi 2 (2021). Intel's second-generation neuromorphic research chip, built on Intel 4. Neuron models are programmable microcode rather than fixed circuits.
+Mythic Analog (2022). An analog compute-in-memory accelerator that stores weights as charge on flash transistors. Matrix multiplication happens as Ohm's law in the memory array, skipping the data movement entirely.
+Normal Computing (2023). A thermodynamic hardware effort building stochastic processing units for linear algebra and sampling. Physical relaxation to equilibrium replaces the iterative solver.
+Extropic X0 (2024). Extropic's first test silicon for probabilistic computing. Validates transistor cells engineered to fluctuate as programmable random bits.
+Kinetic
+Antikythera (~100 BC). A bronze geared mechanism encoding lunar, solar, and planetary cycles. Turning the crank advanced the model to any date and read out eclipse timing.
+Babbage Difference Engine (1822). A mechanical calculator that tabulates polynomials by the method of finite differences. Addition-only gearing, no branching.
+Analytical Engine (1837). Babbage's design for a general-purpose mechanical computer, with a mill for arithmetic and a store for numbers. Punched-card programmed and conditionally branching, but never built.
+Wave
+SAW Filters (1965). See SAW.
+Lightmatter Envise (2021). A photonic accelerator performing matrix multiplication in silicon waveguides. Weights encode as interference, so the multiply itself costs almost nothing.
+Caulfield Proposal (1989). A design for a general-purpose optical processor, advanced during the optical computing push. Never built, as optical nonlinearity and switching losses proved intractable.
+Imec / Mainz (2014). Magnonic logic, computing with spin waves in a magnetic lattice rather than moving electrons. Interference between waves performs the operation and dissipates no Joule heat.
+Xanadu Borealis (2022). A programmable photonic processor running Gaussian boson sampling across 216 squeezed light modes. Operates at room temperature, with only the detectors cryogenic.
+PsiQuantum Omega (2024). A photonic quantum chipset manufactured on a standard semiconductor line. Targets fault tolerance through volume manufacturing rather than higher per-qubit fidelity.
+Superconductor
+RSFQ (1985). See RSFQ.
+AQFP (2014). See AQFP.
+D-Wave One (2011). The first commercially sold quantum machine, a 128-qubit superconducting annealer. Optimizes rather than computes universally, so it runs no general quantum algorithm.
+Google Willow (2024). A 105-qubit superconducting processor that crossed the error-correction threshold. Adding physical qubits lowered the logical error rate rather than raising it.
+IBM Nighthawk (2025). A 120-qubit superconducting processor on a square lattice with tunable couplers. Built for circuit depth over qubit count.
+Atomic
+Wineland (1995). The first two-qubit quantum logic gate, demonstrated on a single trapped beryllium ion at NIST. Internal states held the qubit while the ion's motion carried the coupling.
+IonQ (2018). The first commercial trapped-ion quantum computer, using ytterbium ions addressed by laser. All-to-all connectivity, with identical qubits by atomic physics rather than fabrication.
+QuEra Aquila (2022). A 256-qubit neutral-atom processor holding rubidium atoms in optical tweezers. Qubits are rearranged geometrically between shots, so the lattice itself is programmable.
+Not computation
+Viruses. A genome in a protein shell, with no metabolism and no processing of its own. Carries instructions to a host that executes them.
+USB sticks. Floating-gate flash cells holding charge as stored bits. Retains state without transforming it, which is memory without a rule.
+Chemical. Reaction-diffusion systems whose concentration fronts trace solutions to spatial problems. The chemistry runs the same regardless of whether anyone reads an answer out of it.
+Reservoir. A fixed nonlinear dynamical medium driven by an input, with only a thin readout layer trained. The reservoir is untrained physics, so the computation sits in the readout.
+Slime mold. Physarum polycephalum thickening tubes along efficient paths between food sources. Optimization by growth economics rather than by encoded rule.
+Plasma. Ionized gas whose collective oscillations have been proposed as a computational substrate. Dynamics are rich but unaddressable, with no way to write a program in.
+Pre-biotic chemistry. Molecular interaction before any sequence was read as instruction. Reaction without abstraction.
+Cosmic computation. The claim that physical evolution is itself computation. Fails the abstraction test, since the encoding is imposed by an observer rather than present in the system.
+________________________________________
+Miscellaneous
+Compute. The capacity to perform computation. A resource, measured in operations, cycles, or energy.
+Computation. The rule-governed processing of abstractions. Independent of medium.
+Bit. The irreducible unit of information, the resolution of two equally likely alternatives. One binary distinction.
+Landauer limit. The theoretical minimum energy required to erase one bit of information, roughly 3 × 10⁻²¹ joules at room temperature. Set by thermodynamics rather than engineering.
+Reversible computing. Computation performed without erasing information, so no energy is thermodynamically required to be dissipated. The route beneath the Landauer limit.
+Wall-plug energy. Total energy drawn from the grid to run a system, including cooling and power conversion. Distinct from the energy consumed by the switching operation alone.
+Efficient frontier. The set of systems that no other system beats on both time and energy per bit. Everything above and to the right is dominated.
+Josephson junction. Two superconductors separated by a thin barrier, across which current tunnels without resistance. The switching element of superconducting logic.
+Qubit. A two-state quantum system used as the unit of quantum information. Holds a superposition of both states until measured.
+Quantum advantage. A demonstration that a quantum machine solves some task faster than any classical machine could. Usually shown on synthetic benchmarks rather than useful workloads.
+Gaussian boson sampling. A quantum benchmark measuring photon distributions across an interferometer. Hard to simulate classically but not a general-purpose algorithm.
+Error-correction threshold. The point at which adding physical qubits lowers the logical error rate instead of raising it. The precondition for scaling a quantum computer.
+Neuromorphic. Hardware modeled on the event-driven behavior of biological neurons. Elements stay idle until a signal arrives.
+Organoid. A small cluster of cultured cells self-organizing into tissue-like structure. Used as a living substrate for compute.
+Large Language Model (LLM). A model trained to predict the next token across large text corpora. Behavior encoded in learned weights rather than explicit instructions.
+Inference. Running a trained model to produce an output. Distinct from training, which fits the weights.
+Token. The unit of text a language model reads and emits, typically a word fragment. Roughly four characters in English.
+Mixture-of-Experts (MoE). An architecture that routes each token to a subset of the network rather than the whole. Cuts active parameters per token without cutting total capacity.
+Model distillation. Training a small model to reproduce a large model's outputs. Captures most of the capability at a fraction of the inference cost.
+Sliding window attention. An attention pattern in which each token attends only to a fixed span of neighbors rather than the full sequence. Turns quadratic attention cost into linear.
+RWKV. A recurrent architecture in which the influence of a token decays exponentially as the sequence advances. Linear-time inference with no growing key-value cache.
+Jevons paradox. The observation that efficiency gains in a resource increase total consumption of it rather than reduce it. Named for coal, applicable to compute.
+Watt-hour (Wh). One watt sustained for one hour, equal to 3,600 joules. The standard unit for per-query energy.
+
