@@ -1,6 +1,6 @@
 The Efficient Frontier of Compute Glossary
 
-Acronyms and technical terms
+Acronyms and Technical Terms
 RiboNucleic Acid (RNA). A single-stranded nucleic acid polymer of ribonucleotides that assists in gene expression.
 DeoxyriboNucleic Acid (DNA). A double-stranded nucleic acid polymer of deoxyribonucleotides that stores genetic information.
 Application-Specific Integrated Circuit (ASIC). A processor designed for a sole application (mining bitcoin). Maximal performance-per-watt.
@@ -15,7 +15,7 @@ Adiabatic Quantum-Flux-Parametron (AQFP). Superconducting logic running slowly e
 Thermodynamic Sampling Unit (TSU). A processor built from transistors whose thermal noise fluctuates probabilistically rather than hold a fixed 0 or 1. Samples from a distribution physically instead of computing it.
 American Invitational Mathematics Examination (AIME). A 15-question, three-hour US secondary-school Olympiad qualifier with integer-only answers (000–999). Sits between the AMC 10/12 and the USAMO.
 ________________________________________
-Taxonomy axes
+Taxonomy Axes
 Hardware (columns)
 Organic. Computation carried out in living tissue. Molecules and cells as the switching medium.
 Charge. Computation carried out by moving or storing electrons, including silicon logic and processing-in-memory. The dominant substrate of the electronic era.
@@ -31,7 +31,7 @@ Probabilistic. A substrate that samples from a distribution as a physical proces
 Superposition. A substrate holding multiple states simultaneously until measured. Interference between amplitudes performs the computation.
 Processing-In-Memory (PIM). An architecture that performs arithmetic inside the memory array instead of shuttling data to a separate processor. Removes the von Neumann bottleneck.
 ________________________________________
-Compute types
+Compute Types
 Organic
 First RNA (~3.8 billion years ago). The earliest self-replicating ribonucleic acid, able to both carry a sequence and catalyze its own copying. The first molecule read as instruction rather than merely reacted with.
 Adleman DNA (1994). Leonard Adleman's test-tube solution to a seven-node Hamiltonian path problem using hybridizing DNA strands. Massively parallel by brute force, with the answer extracted by gel electrophoresis.
@@ -82,7 +82,19 @@ Slime mold. Physarum polycephalum thickening tubes along efficient paths between
 Plasma. Ionized gas whose collective oscillations have been proposed as a computational substrate. Dynamics are rich but unaddressable, with no way to write a program in.
 Pre-biotic chemistry. Molecular interaction before any sequence was read as instruction. Reaction without abstraction.
 Cosmic computation. The claim that physical evolution is itself computation. Fails the abstraction test, since the encoding is imposed by an observer rather than present in the system.
-________________________________________
+_______________________________________
+Inference Methods
+Neuromorphic chips (Intel Loihi 2, IBM NorthPole). Artificial neurons sit idle until signaled, making them advantageous for sparse, event-driven workloads.
+Photonic processors (Lightmatter). Perform calculations using light, at a dramatically lower energy per operation. Ideal for transformer attention layers.
+Thermodynamic chips (Extropic, Normal Computing). Use intrinsic thermal fluctuations as a basis for probabilistic and diffusion models.
+Quantum computers (IBM Heron, Google Willow, Quantinuum). Collapse the required operation count exponentially via superposition. Require massive innovations in cryogenics to reduce cooling costs.
+Context abbreviation.
+Receptance weighted key value (RWKV). As tokens age, their influence decays exponentially. 
+Sliding window. Instead of every token attending to every other token, each token only looks to its nearest neighbors. 
+Multi-head latent attention (MLA). All tokens stay attended to each other and each token’s value is compressed/summarized.
+Mixture-of-experts routing (MoE). Activating only the fraction of model parameters relevant to each token rather than the entire network.
+Model distillation. Training a small model to match a large model’s outputs, capturing most of the capability at a fraction of the inference cost. This has allowed China to build comparable models despite having 5x less GPU cluster performance than the US.
+_______________________________________
 Miscellaneous
 Compute. The capacity to perform computation. A resource, measured in operations, cycles, or energy.
 Computation. The rule-governed processing of abstractions. Independent of medium.
