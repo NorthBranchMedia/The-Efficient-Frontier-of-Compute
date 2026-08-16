@@ -1,6 +1,6 @@
 # The-Efficient-Frontier-of-Compute
 
-The frontier of artificial intelligence lies with efficiency.
+The frontier of artificial intelligence lies in efficiency.
 
 <img width="2304" height="1536" alt="Efficient_Frontier_of_Compute" src="https://github.com/user-attachments/assets/d8b4d5f4-5c91-40fd-8f57-77b528d407e1" />
 
