@@ -2,9 +2,9 @@
 
 The frontier of artificial intelligence lies with efficiency.
 
-<img width="2304" height="1536" alt="Efficient_Frontier_of_Compute" src="https://github.com/user-attachments/assets/d143205e-f754-4ddf-9a89-c882f5f6d025" />
+<img width="2304" height="1536" alt="Efficient_Frontier_of_Compute" src="https://github.com/user-attachments/assets/d8b4d5f4-5c91-40fd-8f57-77b528d407e1" />
 
-<img width="2368" height="1750" alt="Taxonomy_of_Compute" src="https://github.com/user-attachments/assets/9b4140b3-244e-430c-997f-ffa00738c4cc" />
+<img width="2368" height="1750" alt="Taxonomy_of_Compute" src="https://github.com/user-attachments/assets/4d5e3209-e8e0-4a13-a539-245aec966f02" />
 
 [Observable link]([https://observablehq.com/@nbm/efficient-frontier-of-compute](https://observablehq.com/d/f0c2c2eba5698489))
 
